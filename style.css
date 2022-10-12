@@ -1,0 +1,148 @@
+#menu {
+  width: 100%;
+  margin-bottom: -18px;
+  }
+
+.item {
+  color: cyan;
+  width: auto;
+  list-style: none;
+ font-family: 'Righteous', cursive;
+  font-size: 35px;
+    margin: 0px 30px;
+}
+
+.container {
+  background-color: #353025;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  
+}
+
+
+main {
+  background-color: #d4f0f1;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  flex-grow: 1;
+  width: 450px;
+  height: 600px;  
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  font-family: 'Black Han Sans', sans-serif;
+  padding-left: 60px;
+  padding-top: 240px;
+  display: block;
+    text-shadow: 3px 3px #54eaef;
+}
+
+.tight-text {
+  width: auto;
+  margin: auto;
+  padding: 60px;  
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: -30px;
+  color: #353025;
+}
+
+h4 {
+  font-size: 30px;
+  color: #353025;
+
+}
+
+.main {
+  
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 18px;
+font-family: 'Didact Gothic', sans-serif;
+}
+
+.larger {
+  font-size: 22px;
+  padding-top: 0px;
+
+}
+
+ul {
+  font-size: 18px;
+ font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+    font-size: 40px;
+  color: #4b412e;
+  text-shadow: 3px 3px #54eaef;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+   font-size: 28px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin-top: -20px;
+   font-size: 20px;
+}
+
+blockquote{
+ font-family: 'Righteous', cursive;
+  font-size:60px;
+  margin: 0; 
+  width: 300px;
+  color: #54eaef;
+  padding: 30px 80px 30px 70px;
+  position: relative;
+  background: #4b412e;
+
+}
+
+blockquote::before{
+  font-family: 'Righteous', cursive;
+  content: "\201C";
+  color: #54eaef;
+  font-size:100px;
+  position: absolute;
+  left: 0px;
+  top:-25px;
+}
+
+.quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.line {
+  border-top: 3px solid black;
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;  
+}
